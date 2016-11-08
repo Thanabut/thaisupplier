@@ -1,0 +1,52 @@
+/*
+    color
+*/
+@footer-bg: #7986CB;
+@c-white: #FFF;
+@navbar-blue:#3F51B5;
+@navbar-text: #ecf0f1;
+@navbar-highlight: #B3E5FC;
+@sidebar-hover: #e5e5fd;;
+
+ul.page-sidebar{
+	list-style:none;	
+	li{
+		padding: 5px 0;
+		padding-left: 10px;
+		&:hover{
+			background:@sidebar-hover;
+		}
+		&.active{
+			background: @navbar-blue;
+			a{
+				color:@navbar-text;
+				&:hover{
+					color:@navbar-highlight;
+				}
+			}
+		}
+	}
+}
+
+
+section.main-footer{
+    background: @c-white;
+    min-height: 150px;
+    padding-top:20px;
+	margin-top: 30px;
+}
+
+
+.product-list{
+	.thumbnail{
+		img{
+			height: 100px;
+		}
+	}
+}
+
+.thumbnail{
+	img{
+			height: 120px !important;
+		}
+}

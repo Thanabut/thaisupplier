@@ -1,0 +1,34 @@
+/*
+    color
+*/
+ul.page-sidebar {
+  list-style: none;
+}
+ul.page-sidebar li {
+  padding: 5px 0;
+  padding-left: 10px;
+}
+ul.page-sidebar li:hover {
+  background: #e5e5fd;
+}
+ul.page-sidebar li.active {
+  background: #3F51B5;
+}
+ul.page-sidebar li.active a {
+  color: #ecf0f1;
+}
+ul.page-sidebar li.active a:hover {
+  color: #B3E5FC;
+}
+section.main-footer {
+  background: #FFF;
+  min-height: 150px;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+.product-list .thumbnail img {
+  height: 100px;
+}
+.thumbnail img {
+  height: 120px !important;
+}
